@@ -65,9 +65,7 @@ public class ProductController {
     }
 
     // supprimer un produit
-    public void supprimerProduit(@PathVariable int id) {
-
-        productDao.delete(id);
+    public void supprimerProduit() {
     }
 
     // Mettre à jour un produit
