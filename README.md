@@ -4,17 +4,20 @@
 
 Vos amis :
 Tous les TD que nous avons réalisé 
+
 https://spring.io/projects/spring-boot
+
 généralement google est votre ami ...
 
 
 
 Attention : Vous devez forké le projet avant de le cloner. Cette opération copie le projet dans votre compte GitHub et vous permet de pousser les commits résultant de votre travail.
-Consignes pour la réalisation
-A la fin de chaque partie, créez un commit  et poussez le vers votre projet GitHub
+
+Consignes pour la réalisation : A la fin de chaque partie, créez un commit  et poussez le vers votre projet GitHub
 
 Partie 0 - Implémentation des endpoint : delete / update & GetById
 l'implémentation de ces méthodes c’est dans le Controller 
+
 
 Partie 1 - Affichage de la marge
 La méthode calculerMargeProduit (différence entre prix d‘achat et prix de vente)doit répondre à  une requête GET sur l’URI   /AdminProduits. Les données doivent être récupérées depuis la base de données mises en place dans le projet.
@@ -68,13 +71,19 @@ L’utilisation du TDD est recommandé (aucune obligation)
 Partie 6 -Microservice Eureka Server
 Créez un microservice qui portera l’Eureka serveur.
 Les deux microservices “microcommerce” et “myMicroservice” vont s’enregistrer dans le microservice “Eureka Server”
-Partie 8 - Spring Security (Bonus n°1)
+
+Partie 7 - Spring Security (Bonus n°1)
 Mettez en place une authentification lors de l’affichage de produit avec deux niveau de role (user et admin)
 y’a que l’admin qui peut voir les prix des produit
-Partie 9 - Gestion des erreurs HTTP 
+
+
+Partie 8 - Gestion des erreurs HTTP 
 en utilisant la lib HTTP et spring gérer les cas 4xx et 5xx et faites des TU pour simuler un cas de 400 et 500
-Partie 10 - Swagger
+
+
+Partie 9 - Swagger
 Documentez vos microservice avec Swagger 2 
+
 
 Bonus pour tous le monde : Mettez un font à votre application spring-boot
 à vous de jouer … cette partie est free … vous pouvez utiliser ce que vous voulez pour le front qui marche avec spring-boot 
