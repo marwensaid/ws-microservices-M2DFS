@@ -7,7 +7,6 @@ Tous les TD que nous avons réalisé
 https://spring.io/projects/spring-boot
 généralement google est votre ami ...
 
-Pour commencez clonez ce projet : https://github.com/marwensaid/training-spring-boot.git
 
 
 Attention : Vous devez forké le projet avant de le cloner. Cette opération copie le projet dans votre compte GitHub et vous permet de pousser les commits résultant de votre travail.
